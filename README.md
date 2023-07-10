@@ -13,7 +13,15 @@ step 1.
                       or
 
           iwr -useb https://padsalatushal.github.io/burp_setup.ps1 | iex
-          
+
+know next time go to start the burpsuite , burp suite is not start so please follow me on my step
+step -----
+         Go to burp suite directory now open cmd and tye
+
+         java -jar keygen.jar
+
+         konow open kegen tool then start burpsuite to sucessfully working.
+
 If you are having TLS 1.2 Issues or You cannot find or resolve host then run with the following command:
 
          [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object                                              Net.WebClient).DownloadString('https://raw.githubusercontent.com/padsalatushal/Burp-Suite-Pro-Installer/main/burp_setup.ps1')
